@@ -1,0 +1,17 @@
+.ProdutoContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.ProdutoImg img {
+  border-radius: 10px;
+  max-width: 100%;
+  display: block;
+}
+
+.ProdutoNome {
+  margin-bottom: 20px;
+}

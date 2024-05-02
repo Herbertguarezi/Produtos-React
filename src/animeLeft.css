@@ -1,0 +1,12 @@
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-60px);
+  animation: animeLeft 0.4s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
+  }
+}

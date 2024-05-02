@@ -1,0 +1,29 @@
+.DescricaoContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.DescricaoContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.DescricaoContent img {
+  display: block;
+  width: 100%;
+  grid-column: 1;
+  border-radius: 10px;
+}
+
+.DescricaoInfo {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.DescricaoInfo .preco {
+  background: #86fa54;
+  color: #2d6e1f;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+}

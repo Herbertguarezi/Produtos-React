@@ -1,0 +1,32 @@
+.ContatoContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ContatoContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.ContatoContent img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.ContatoList {
+  list-style: none;
+  position: relative;
+}
+
+.ContatoList::before {
+  content: "";
+  width: 20px;
+  height: 6px;
+  background: rgb(223, 223, 223);
+  position: absolute;
+  top: 12px;
+  left: -25px;
+  border-bottom: 2px solid rgb(200, 200, 200);
+}
